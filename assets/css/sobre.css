@@ -1,0 +1,42 @@
+.sobre{
+    text-align: center;
+    border-color: red;
+}
+
+.sobre_titulo{
+    font-family: Pacifico, cursive;
+    color:#DA2B1F;
+    font-size: 3.1875rem;
+}
+
+.sobre_desc {
+    color: #8C8888;
+    font-weight: 500;
+}
+
+@media screen and (min-width:0) {
+    .sobre{
+        padding: 2.5rem 1rem;
+    }
+
+    .sobre_titulo{
+        font-size: 2rem;
+    }
+    .sobre_desc {
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .sobre{
+        padding: 2.5rem;
+    }
+
+    .sobre_titulo{
+        font-size: 3.1875rem;
+    }
+
+    .sobre_desc {
+        font-size: 1.75rem;
+    }
+}

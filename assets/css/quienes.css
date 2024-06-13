@@ -1,0 +1,17 @@
+.quienes {
+    padding: 5rem;
+    text-align: center;
+}
+
+.quienes__titulo{
+    font-family: Pacifico, cursive;
+    color:#DA2B1F;
+    font-size: 3.1875rem;
+}
+
+.quienes__descripcion{
+    color: #8C8888;
+    font-size: 1.75rem;
+    font-weight: 100;
+    
+}

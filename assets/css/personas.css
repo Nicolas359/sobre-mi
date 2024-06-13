@@ -1,0 +1,60 @@
+.personas{
+    display: center;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.persona{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.persona__nombre{
+    font-family: Pacifico, cursive;
+    color:#DA2B1F;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.persona__funcion{
+    color: #8C8888;
+    font-size: 1.25rem;
+    font-weight: 500; 
+}
+
+.persona__imagen{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+
+.persona__imagen--andreia{
+    background-image: url("../img/personas/andrea.jpg");
+}
+
+
+
+@media screen and (min-width:0) {
+    .personas{
+        flex-direction: column;
+    }
+
+    .persona{
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .personas{
+        flex-direction: row;
+    }
+    .persona{
+        margin-bottom: 0;
+    }
+}

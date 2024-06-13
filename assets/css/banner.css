@@ -1,0 +1,36 @@
+.banner {
+    position: relative;
+}
+
+.banner_imagen{
+    width:100%;
+}
+
+.banner_titulo{
+    color:#fdfdfd;
+    font-family: Pacifico, cursive;
+
+    position:absolute;
+    text-align: center;
+    top:50%;
+    text-shadow: 0 4px 4px rgba(0,0,0,0.75);
+    width:100%;
+}
+
+@media screen and (min-width:0) {
+    .banner_titulo {
+        font-size: 3;
+    }
+    .banner_imagen {
+        height:calc(100vh - 51px);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .banner_titulo {
+        font-size: 5.0625rem;
+    }
+    .banner_imagen {
+        height:calc(100vh - 72px);
+    }
+}
